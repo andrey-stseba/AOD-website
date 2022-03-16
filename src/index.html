@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-  @@include('html/head.html',{ "title":"Главная" })
-  <body>
-    @@include('html/header.html',{})
-    <main>
-      <img src="@img/avatar.jpg" alt="avatar" />
-      <span>autor Andru</span>
-    </main>
-    @@include('html/footer.html',{})
-    <script src="js/app.min.js"></script>
-  </body>
+<html lang="ru">
+	@@include('_head.html',{
+	"title":"Главная"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('_header.html',{})
+			<main class="page">
+
+			</main>
+			@@include('_footer.html',{})
+		</div>
+		@@include('_popup.html',{})
+		@@include('_js.html',{})
+	</body>
 </html>
