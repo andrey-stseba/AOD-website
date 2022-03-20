@@ -233,6 +233,23 @@
     font-style: italic;
     line-height: 34px;
   }
+
+  .swiper-pagination {
+    position: inherit;
+    padding-top: 100px;
+  }
+  .swiper-pagination-bullet {
+    width: 11px;
+    height: 11px;
+    line-height: 20px;
+    font-size: 0;
+    border: 2px solid #a9afb3;
+    background-color: transparent;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #a9afb3;
+  }
+
   @media (max-width: 767px) {
     padding: 50px 0 30px 0;
     &__icon {
