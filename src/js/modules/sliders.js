@@ -42,6 +42,9 @@ function sliders_bild_callback (params) {
       clickable: true
       // dynamicBullets: true
     },
+    autoplay: {
+      delay: 3000
+    },
     grabCursor: true
     // slideToClickedSlide: true
   });
